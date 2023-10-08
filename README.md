@@ -4,7 +4,7 @@
 :fire: Summary
 --------------
 
-**For GRUB users in dual/multi-boot environments**, this script can easily change the OS to boot next time with **only a reboot**.
+**For GRUB users in dual/multi-boot environments**, this script can **easily change the OS** to boot next time with **only a reboot**.
 
 This script rewrites the menu number to be selected by default, which is written in `/boot/grub/grub.cfg`.
 
