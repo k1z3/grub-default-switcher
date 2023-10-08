@@ -1,14 +1,14 @@
-GRUB Switch default script
-==========================
+:hammer_and_wrench: GRUB Switch default script
+==============================================
 
-Summary
--------
+:fire: Summary
+--------------
 
-For GRUB users in dual/multi-boot environments, this script can easily change the OS to boot next time with only a reboot.
+**For GRUB users in dual/multi-boot environments**, this script can easily change the OS to boot next time with **only a reboot**.
 
 This script rewrites the menu number to be selected by default, which is written in `/boot/grub/grub.cfg`.
 
-### Target User
+### :dart: Target User
 
 - Users have difficulty accessing BIOS and GRUB (e.g., using a Bluetooth keyboard).
 
@@ -29,8 +29,8 @@ This script rewrites the menu number to be selected by default, which is written
 ***I cannot be held responsible if this script fails to start, so please use it with caution.***
 
 
-Specification
--------------
+:pushpin: Specification
+-----------------------
 
 |  | GRUB Switch default |
 | ---: | --- |
@@ -41,10 +41,10 @@ Specification
 
 
 
-Usage
------
+:sparkles: Usage
+----------------
 
-### For Linux
+### :penguin: For Linux
 
 0. (Optional) If you want to run without sudo, I recommend that you place `grub.cfg` in your home directory and make a symbolic link to it.
 
@@ -94,20 +94,20 @@ Usage
         archlinux=5
         ```
 
-1. You can switch by calling `main.sh` with the variable name you just set as an argument :tada:.
+1. You can switch by calling `main.sh` with the variable name you just set as an argument.
 
     ```bash
     ./main.sh windows
     ```
 
-    Expected output:
+    :tada: Expected output:
     ```bash
     [Success] Changed default boot entry to 'windows'. (No.4)
     ```
 
-### For Windows
+### :window: For Windows
 
-0. Prepare a Linux environment with GRUB in advance according to [the above procedure (For Linux)](#for-linux).
+0. Prepare a Linux environment with GRUB in advance according to [the above procedure (For Linux)](#penguin-for-linux).
 
 1. [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) environment is required for this script to work. Please install the appropriate distribution.
 
@@ -185,13 +185,13 @@ Usage
         archlinux=5
         ```
 
-1. You can switch by calling `main.sh` with the variable name you just set as an argument :tada:.
+1. You can switch by calling `main.sh` with the variable name you just set as an argument.
 
     ```bash
     ./main.sh ubuntu
     ```
 
-    Expected output:
+    :tada: Expected output:
     ```bash
     [Success] Changed default boot entry to 'ubuntu'. (No.0)
     ```
