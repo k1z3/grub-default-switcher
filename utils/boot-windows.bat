@@ -1,5 +1,7 @@
 @echo off
 
+REM Set Windows the default boot (Script for Windows).
+
 chcp 65001
 cd /d "%~dp0/.."
 
