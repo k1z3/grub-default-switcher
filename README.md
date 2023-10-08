@@ -26,7 +26,7 @@ This script rewrites the menu number to be selected by default, which is written
 
 ***It may differ from the originally recommended usage.***
 
-***I cannot be held responsible if this script fails to start, so please use it with caution.***
+***I am not responsible for any disadvantage you may suffer from using this script, so please use it with caution.***
 
 
 :pushpin: Specification
@@ -127,7 +127,7 @@ This script rewrites the menu number to be selected by default, which is written
     \\.\PHYSICALDRIVE1 M.2 NVMe SSD 1TB          2 1000202273280 M.2 NVMe SSD 1TB
     ```
 
-    In this case, we have Linux with GRUB on 1TB, so we mount it as follows.
+    In this case, I have Linux with GRUB on 1TB, so I mount it as follows.
 
     ```powershell
     wsl --mount \\.\PHYSICALDRIVE1 --bare
@@ -200,5 +200,5 @@ This script rewrites the menu number to be selected by default, which is written
 ## Confirmed to work
 
 |  | GNU GRUB |
-| ---: | --- |
+| ---: | :---: |
 | 2.06 | :white_check_mark: |
