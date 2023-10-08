@@ -47,7 +47,7 @@ sed -i -E "s/^   set default=\"[0-9]+\"$/   set default=\"$target\"/g" "$cfgpath
 # Output result
 if [ $? -eq 0 ]; then
     # Success!
-    echo -e "[\e[32mSuccess\e[0m] Changed default boot entry to '$args'. (No.$target)"
+    echo -e "[\e[32mSuccess\e[0m] Changed default boot entry to '$args'. (Index: $target)"
     exit 0
 else
     # Failed
