@@ -1,6 +1,8 @@
 :hammer_and_wrench: GRUB Switch default script
 ==============================================
 
+-> [日本語 / ja](/README.ja.md)
+
 :fire: Summary
 --------------
 
@@ -13,8 +15,6 @@ This script rewrites the menu number to be selected by default, which is written
 - Users have difficulty accessing BIOS and GRUB (e.g., using a Bluetooth keyboard).
 
 - Users who want to switch OS via remote access.
-
-↓ GNU GRUB menu
 
 <img src="./image.gif" width="640">
 
@@ -100,14 +100,17 @@ This script rewrites the menu number to be selected by default, which is written
     ./main.sh windows
     ```
 
-    :tada: Expected output:
+    Expected output:
     ```bash
-    [Success] Changed default boot entry to 'windows'. (No.4)
+    [Success] Changed default boot entry to 'windows'. (Index: 4)
     ```
+
+1. Windows will be started at the next boot (reboot)! :tada:
+
 
 ### :window: For Windows
 
-0. Prepare a Linux environment with GRUB in advance according to [the above procedure (For Linux)](#penguin-for-linux).
+1. Prepare a Linux environment with GRUB in advance according to [the above procedure (For Linux)](#penguin-for-linux).
 
 1. [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) environment is required for this script to work. Please install the appropriate distribution.
 
@@ -191,10 +194,12 @@ This script rewrites the menu number to be selected by default, which is written
     ./main.sh ubuntu
     ```
 
-    :tada: Expected output:
+    Expected output:
     ```bash
-    [Success] Changed default boot entry to 'ubuntu'. (No.0)
+    [Success] Changed default boot entry to 'ubuntu'! (Index: 0)
     ```
+
+1. Ubuntu will be started at the next boot (reboot). :tada:
 
 
 ## Confirmed to work
