@@ -37,7 +37,7 @@ This script rewrites the menu number to be selected by default, which is written
 | License | MIT |
 | Language | Shell script |
 | Author | k1z3 |
-| GitHub Repo. | https://github.com/k1z3/grub-switch-default |
+| GitHub Repo. | https://github.com/k1z3/grub-default-switcher |
 
 
 
