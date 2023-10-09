@@ -1,12 +1,12 @@
-:hammer_and_wrench: GRUB Switch default script
-==============================================
+:hammer_and_wrench: GRUB default switcher
+=========================================
 
 -> [English / en](/README.md)
 
 :fire: 概要
 -----------
 
-**デュアル/マルチブート環境においてGRUBを利用している方** は、このスクリプトを実行して再起動するだけで、**次回起動時のOSを簡単に切り替えることができます**。
+**デュアル/マルチブート環境においてGNU GRUBを利用している方** は、このスクリプトを実行して**再起動**するだけで、**次回起動時のOSを簡単に切り替えることができます**。
 
 このスクリプトは、`/boot/grub/grub.cfg` に記述されているデフォルトで選択されるメニュー番号を書き換えます。
 
@@ -33,12 +33,12 @@
 :pushpin: 仕様
 --------------
 
-|  | GRUB Switch default |
+|  | GRUB default switcher |
 | ---: | --- |
 | License | MIT |
 | Language | Shell script |
 | Author | k1z3 |
-| GitHub Repo. | https://github.com/k1z3/grub-switch-default |
+| GitHub Repo. | https://github.com/k1z3/grub-default-switcher |
 
 
 
@@ -180,7 +180,7 @@
 
         任意の名前でも呼び出すことができます (e.g. `archlinux` とか)。
 
-        例:
+        Example:
         ```plane
         cfgpath="/home/k1z3/grub.cfg"
 
