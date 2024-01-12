@@ -65,7 +65,7 @@
     最後に、コピーしたファイルのシンボリックリンクを作成します。
 
     ```bash
-    sudo ln -s /boot/grub/grub.cfg ~/grub.cfg
+    sudo ln -s ~/grub.cfg /boot/grub/grub.cfg
     ```
 
 1. このリポジトリをcloneします。

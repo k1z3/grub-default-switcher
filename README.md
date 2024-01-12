@@ -64,7 +64,7 @@ This script rewrites the menu number to be selected by default, which is written
     Finally, make a symbolic link to the copied file.
 
     ```bash
-    ln -s /boot/grub/grub.cfg ~/grub.cfg
+    sudo ln -s ~/grub.cfg /boot/grub/grub.cfg
     ```
 
 1. Clone this repository.
