@@ -1,6 +1,6 @@
 # Set Windows the default boot (Script for Ubuntu).
 cd $(dirname $0)
-/home/koizumi/grub-change-default/main.sh windows
+../main.sh windows
 
 if [ $? -eq 0 ]; then
     sleep 5;
