@@ -51,8 +51,8 @@ This script rewrites the menu number to be selected by default, which is written
     First make a copy and back it up.
 
     ```bash
-    cp /boot/grub/grub.cfg ~/grub.cfg
-    cp /boot/grub/grub.cfg ~/grub.cfg.bk
+    cp /boot/grub/grub.cfg ~/grub.cfg && \
+    cp /boot/grub/grub.cfg ~/grub.cfg.bu
     ```
 
     Next, delete the original `grub.cfg` file with sudo privileges.
@@ -207,3 +207,4 @@ This script rewrites the menu number to be selected by default, which is written
 |  | GNU GRUB |
 | ---: | :---: |
 | 2.06 | :white_check_mark: |
+| 2.12-rc1 | :white_check_mark: |

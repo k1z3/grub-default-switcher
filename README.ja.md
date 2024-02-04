@@ -52,8 +52,8 @@
     まずはコピーを作成し、バックアップを取ります。
 
     ```bash
-    cp /boot/grub/grub.cfg ~/grub.cfg
-    cp /boot/grub/grub.cfg ~/grub.cfg.bk
+    cp /boot/grub/grub.cfg ~/grub.cfg && \
+    cp /boot/grub/grub.cfg ~/grub.cfg.bu
     ```
 
     次に、sudo権限で元の `grub.cfg` ファイルを削除します。
@@ -163,7 +163,7 @@
     ```
 
 1. WSLに入り、このリポジトリをcloneします。
-
+sudo 
 1. `main.sh` を実行すると、`config` ファイルが自動的に出力されます。
 
     ```bash
@@ -209,3 +209,4 @@
 |  | GNU GRUB |
 | ---: | --- |
 | 2.06 | :white_check_mark: |
+| 2.12-rc1 | :white_check_mark: |
